@@ -84,7 +84,3 @@ var phraseArray = [
 "Limit a search and replace operation between lines matching 2 regex patterns using /pattern1/,/pattern2/s/search/replace/",
 "Select a visual block using <C-v>{motion}, and insert some text at the beginning of the each line of the block using I{text}<Esc>",
 ];
-document.addEventListener("DOMContentLoaded", function(event) {
-var phrase = phraseArray[Math.floor(Math.random() * phraseArray.length)];
-document.getElementById("tip").innerHTML = phrase; 
-});
